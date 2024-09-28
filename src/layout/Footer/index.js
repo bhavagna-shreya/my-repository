@@ -45,17 +45,7 @@ const Footer = () => {
           />
         )}
       </div>
-      <div className='author'>
-        Made by:
-        <a
-          href={CONSTANTS.AUTHOR_GITHUB_LINK}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='author-name'
-        >
-         {CONSTANTS.AUTHOR}
-        </a>
-      </div>
+      
     </div>
   );
 };
